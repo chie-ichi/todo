@@ -1,0 +1,38 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    transition: .5s all ease;
+}
+a:hover{
+    opacity: 0.8;
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+input{
+    outline: none;
+}
+.header{
+    background: #000;
+}
+.header__inner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+.header__txt{
+    color: #fff;
+}
+.header__txt a{
+    color: inherit;
+    font-weight: bold;
+    font-size: 30px;
+}
+.main-contents{
+    padding: 0 0 60px;
+}

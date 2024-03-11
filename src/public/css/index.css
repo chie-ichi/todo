@@ -1,0 +1,134 @@
+.message{
+    background: #d1e7dd;
+    border: 1px solid #badbcc;
+    padding: 10px 20px;
+}
+.message__txt{
+    color: #0f5132;
+}
+.message--error{
+    background: #f8d7da;
+    border-color: #f5c2c7;
+}
+.message--error .message__txt{
+    color: #842029;
+}
+.create{
+    padding: 40px 
+}
+.create__inner{
+    max-width: 800px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.create__form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.create__input-txt{
+    width: calc(100% - 200px);
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    line-height: 1.3;
+    padding: 0.7em;
+}
+.create__btn{
+    width: 150px;
+    display: flex;
+    line-height: 1.3;
+    padding: 0.7em;
+    border-radius: 3px;
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    transition: .5s all ease;
+    font-size: 14px;
+    cursor: pointer;
+    appearance: none;
+}
+.create__btn:hover{
+    background: #dddddd;
+    color: #000;
+}
+.todo__inner{
+    max-width: 800px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.todo__ttl{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+.todo__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.todo__list-item{
+    padding: 15px 15px;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.todo__list-item:first-child{
+    border-top: 1px solid #dddddd;
+}
+.update-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 70px);
+}
+.update-form__item-content{
+    border: none;
+    appearance: none;
+}
+.update-form__btn-submit{
+    background: #00f;
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 1;
+    padding: 0.5em 1em;
+    margin-left: 12px;
+    transition: .5s all ease;
+    font-size: 14px;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+}
+.update-form__btn-submit:hover{
+    opacity: 0.7;
+}
+.delete-form{
+    width: 70px;
+}
+.delete-form__btn-submit{
+    background: #f00;
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+    line-height: 1;
+    padding: 0.5em 1em;
+    margin-left: 12px;
+    transition: .5s all ease;
+    font-size: 14px;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+}
+.delete-form__btn-submit:hover{
+    opacity: 0.7;
+}
+
