@@ -3,18 +3,18 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 use App\Models\Category;
-use App\Models\Todo;
 
-class DatabaseSeeder extends Seeder
+class CategoriesTableSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
     public function run()
     {
-        // Category::factory(5)->create();
+        $this->call(CategoriesTableSeeder::class);
     }
 }

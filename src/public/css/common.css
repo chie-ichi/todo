@@ -7,7 +7,7 @@ a{
     transition: .5s all ease;
 }
 a:hover{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 p, h1, h2, h3, h4, h5, h6{
     margin: 0;
@@ -20,18 +20,25 @@ input{
 }
 .header__inner{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
     padding: 0 20px;
 }
-.header__txt{
+.header__ttl{
     color: #fff;
 }
-.header__txt a{
+.header__ttl a{
     color: inherit;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 26px;
+}
+.header__nav{
+    color: #fff;
+}
+.header__nav a{
+    color: inherit;
+    font-size: 14px;
 }
 .main-contents{
     padding: 0 0 60px;
